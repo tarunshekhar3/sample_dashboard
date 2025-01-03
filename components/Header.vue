@@ -1,17 +1,18 @@
 <template>
-  <header class="flex flex-wrap justify-between items-center bg-white px-6 py-4 shadow-md">
-    <input
-      class="border rounded-md px-3 py-2 w-full md:w-auto mb-4 md:mb-0"
-      type="text"
-      placeholder="Quick Search..."
-    />
-    <div class="flex items-center space-x-4">
-      <button class="bg-purple-600 text-white px-4 py-2 rounded-md">Invite</button>
-      <img
-        class="w-10 h-10 rounded-full"
-        src="https://via.placeholder.com/40"
-        alt="Profile"
-      />
-    </div>
-  </header>
+  <header class="bg-white p-4 flex justify-between items-center">
+        <div>
+          <h1 class="text-2xl font-semibold">Good Morning, Tarun Shekhar</h1>
+          <p class="text-sm text-gray-500">03 Jan - 31 Jan 2025</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <input 
+            type="text" 
+            placeholder="Quick Search..." 
+            class="px-4 py-2 border rounded-lg w-64"
+          >
+          <button class="px-4 py-2 bg-purple-600 text-white rounded-lg">
+            Export Data
+          </button>
+        </div>
+      </header>
 </template>
